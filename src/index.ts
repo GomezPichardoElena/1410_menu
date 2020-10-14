@@ -54,6 +54,8 @@ const main = async () => {
         }
     }while (n != 0)
 }
+ 
+
 
 
 /*Rectángulo */

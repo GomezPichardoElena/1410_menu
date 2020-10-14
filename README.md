@@ -10,7 +10,7 @@ un nuevo proyecto y dentro abrimos un terminal y usamos los siguientes comandos:
 línea 7 "target": "es5", lo cambiamos por "target": "es6". Línea 17 descomentamos la línea y añadimos "outDir": "./dist".
 al final Línea 68 añadimos }, "exclude": [ "node_modules" ].
 
-**npm install monngoose** para instalar el mongoose .
+**npm install mongoose** para instalar el mongoose .
 
 Para que typescript reconozca los tipos de mongoose:
 

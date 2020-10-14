@@ -55,6 +55,22 @@ const main = async () => {
     }while (n != 0)
 }
 
+
+/*Rectángulo */
+
+const perimetroRectangulo = (base:number, altura:number) => {
+    let resRec=0
+    resRec=(base*2+altura*2)
+    return resRec
+}
+
+const areaRectangulo = (base:number, altura:number) => {
+    let resR=0
+    resR=altura*base
+    return resR
+}
+main()
+
 /*Cuadrado */
 
 const perimetroCuadrado = (lado:number) => {
@@ -67,6 +83,20 @@ const areaCuadrado = (lado:number) => {
     let resC=0
     resC=lado*lado
     return resC
+}
+
+/*trángulo */
+
+const perimetroTriangulo = (lado1:number, lado2:number, lado3:number) => {
+    let resT=0;
+    resT=lado1+lado2+lado3
+    return resT
+}
+
+const areaTriangulo = (base:number, altura:number) => {
+    let resTr=0
+    resTr=(base*altura)/2
+    return resTr
 }
 
 /*Circulo */
@@ -82,32 +112,3 @@ const areaCirculo = (radio:number) => {
     res=(radio*radio)*Math.PI
     return res
 }
-
-/*trángulo */
-
-const perimetroTriangulo = (l1:number, l2:number, l3:number) => {
-    let resT=0;
-    resT=l1+l2+l3
-    return resT
-}
-
-const areaTriangulo = (base:number, altura:number) => {
-    let resTr=0
-    resTr=(base*altura)/2
-    return resTr
-}
-
-/*Rectángulo */
-
-const perimetroRectangulo = (b:number, a:number) => {
-    let resRec=0
-    resRec=(b*2+a*2)
-    return resRec
-}
-
-const areaRectangulo = (b:number, a:number) => {
-    let resR=0
-    resR=a*b
-    return resR
-}
-main()

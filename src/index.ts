@@ -7,7 +7,7 @@ const main = async () => {
         switch(n){
             case 1:
                 console.log('Ha seleccionado Calcular el área y el perímetro del Rectangulo')
-                let baseR, alturar:number
+                let baseR:number, alturar:number
                 baseR = parseInt(await leerTeclado('Porfavor, introduzca la base del rectángulo'))
                 alturar = parseInt(await leerTeclado('Porfavor, introduzca la altura del rectángulo'))
                 let perimetroR=perimetroRectangulo(baseR,alturar)
@@ -26,7 +26,7 @@ const main = async () => {
                 break
             case 3:
                 console.log('Ha seleccionado Calcular el área y el perímetro del Triángulo')
-                let baseT, alturaT, lado1, lado2: number
+                let baseT:number, alturaT:number, lado1:number, lado2:number
                 baseT =  parseInt( await leerTeclado('Porfavor, introduzca la base del triángulo'))
                 alturaT =  parseInt( await leerTeclado('Porfavor, introduzca la altura del triángulo'))
                 lado1 =  parseInt( await leerTeclado('Porfavor, introduzca otro lado del triángulo'))
